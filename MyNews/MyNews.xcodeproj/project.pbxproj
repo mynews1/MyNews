@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF77C58B22AF88D8002CF28E /* ZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C58A22AF88D8002CF28E /* ZeroViewController.m */; };
+		BF77C58E22AF88F4002CF28E /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C58D22AF88F4002CF28E /* OneViewController.m */; };
+		BF77C59122AF8906002CF28E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C59022AF8906002CF28E /* TwoViewController.m */; };
+		BF77C59422AF8923002CF28E /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C59322AF8923002CF28E /* ThreeViewController.m */; };
+		BF77C59722AF8943002CF28E /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C59622AF8943002CF28E /* FourViewController.m */; };
+		BF77C59A22AF895B002CF28E /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77C59922AF895B002CF28E /* FiveViewController.m */; };
 		BF7C4F7F22AF7FDB008E9655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7C4F7E22AF7FDB008E9655 /* AppDelegate.m */; };
-		BF7C4F8222AF7FDB008E9655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7C4F8122AF7FDB008E9655 /* ViewController.m */; };
 		BF7C4F8522AF7FDB008E9655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7C4F8322AF7FDB008E9655 /* Main.storyboard */; };
 		BF7C4F8722AF7FDD008E9655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7C4F8622AF7FDD008E9655 /* Assets.xcassets */; };
 		BF7C4F8A22AF7FDD008E9655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7C4F8822AF7FDD008E9655 /* LaunchScreen.storyboard */; };
@@ -35,11 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF77C58922AF88D8002CF28E /* ZeroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZeroViewController.h; sourceTree = "<group>"; };
+		BF77C58A22AF88D8002CF28E /* ZeroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroViewController.m; sourceTree = "<group>"; };
+		BF77C58C22AF88F4002CF28E /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		BF77C58D22AF88F4002CF28E /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		BF77C58F22AF8906002CF28E /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		BF77C59022AF8906002CF28E /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		BF77C59222AF8923002CF28E /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		BF77C59322AF8923002CF28E /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		BF77C59522AF8943002CF28E /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		BF77C59622AF8943002CF28E /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		BF77C59822AF895B002CF28E /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		BF77C59922AF895B002CF28E /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 		BF7C4F7A22AF7FDA008E9655 /* MyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7C4F7D22AF7FDB008E9655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF7C4F7E22AF7FDB008E9655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF7C4F8022AF7FDB008E9655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF7C4F8122AF7FDB008E9655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF7C4F8422AF7FDB008E9655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF7C4F8622AF7FDD008E9655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7C4F8922AF7FDD008E9655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +118,18 @@
 			children = (
 				BF7C4F7D22AF7FDB008E9655 /* AppDelegate.h */,
 				BF7C4F7E22AF7FDB008E9655 /* AppDelegate.m */,
-				BF7C4F8022AF7FDB008E9655 /* ViewController.h */,
-				BF7C4F8122AF7FDB008E9655 /* ViewController.m */,
+				BF77C58922AF88D8002CF28E /* ZeroViewController.h */,
+				BF77C58A22AF88D8002CF28E /* ZeroViewController.m */,
+				BF77C58C22AF88F4002CF28E /* OneViewController.h */,
+				BF77C58D22AF88F4002CF28E /* OneViewController.m */,
+				BF77C58F22AF8906002CF28E /* TwoViewController.h */,
+				BF77C59022AF8906002CF28E /* TwoViewController.m */,
+				BF77C59222AF8923002CF28E /* ThreeViewController.h */,
+				BF77C59322AF8923002CF28E /* ThreeViewController.m */,
+				BF77C59522AF8943002CF28E /* FourViewController.h */,
+				BF77C59622AF8943002CF28E /* FourViewController.m */,
+				BF77C59822AF895B002CF28E /* FiveViewController.h */,
+				BF77C59922AF895B002CF28E /* FiveViewController.m */,
 				BF7C4F8322AF7FDB008E9655 /* Main.storyboard */,
 				BF7C4F8622AF7FDD008E9655 /* Assets.xcassets */,
 				BF7C4F8822AF7FDD008E9655 /* LaunchScreen.storyboard */,
@@ -262,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7C4F8222AF7FDB008E9655 /* ViewController.m in Sources */,
+				BF77C59A22AF895B002CF28E /* FiveViewController.m in Sources */,
+				BF77C59722AF8943002CF28E /* FourViewController.m in Sources */,
 				BF7C4F8D22AF7FDD008E9655 /* main.m in Sources */,
 				BF7C4F7F22AF7FDB008E9655 /* AppDelegate.m in Sources */,
+				BF77C58B22AF88D8002CF28E /* ZeroViewController.m in Sources */,
+				BF77C59422AF8923002CF28E /* ThreeViewController.m in Sources */,
+				BF77C59122AF8906002CF28E /* TwoViewController.m in Sources */,
+				BF77C58E22AF88F4002CF28E /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
